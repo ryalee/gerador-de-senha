@@ -7,7 +7,7 @@ const Tab = createBottomTabNavigator();
 
 export function Routes() {
   return (
-    <TabNavigator>
+    <Tab.Navigator>
       <Tab.Screen
         name='home'
         component={Home}
@@ -39,6 +39,6 @@ export function Routes() {
           }
         }}
       />
-    </TabNavigator>
+    </Tab.Navigator>
   )
 }
